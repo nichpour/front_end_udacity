@@ -25,11 +25,10 @@ nav{
 
 .name_cont h1{
     font-size: 45px;
-    padding: -5px;
     margin: 5px;
 }
 
-.name_cont h4{
+.name_cont p{
     margin: 0px;
     padding-bottom: 4px;
 }
