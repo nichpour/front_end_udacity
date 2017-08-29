@@ -1,0 +1,68 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: darkslategrey;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.underline{
+    border-bottom: 4px solid darkgrey;  
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name_cont{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.name_cont h1{
+    font-size: 45px;
+    padding: -5px;
+    margin: 5px;
+}
+
+.name_cont h4{
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+.mainsection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainpic{
+   width: 90%;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subheader{
+    width: 90%;
+    float: right;
+}
+
+.work {
+    width: 90%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
