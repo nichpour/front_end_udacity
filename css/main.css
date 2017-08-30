@@ -1,4 +1,4 @@
-body, html{
+body, html {
     font-family: 'Quicksand', sans-serif;
     color: darkslategrey;
     margin: 0px;
@@ -6,14 +6,14 @@ body, html{
     height: 100%;
 }
 
-nav{
+nav {
     margin-top: 20px;
     width: 100%;
      display: flex;
     justify-content: flex-end; 
 }
 
-.underline{
+.underline {
     float: right;
     border-bottom: 4px solid darkgrey;  
     width: 100%;
@@ -22,14 +22,14 @@ nav{
     justify-content: space-between; 
 }
 
-.name_cont{
+.name_cont {
     text-align: right;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 10px;
 }
 
-.name_cont h1{
-    font-size: 2.0em;
+.name_cont h1 {
+    font-size: 2.2em;
     margin: 5px;
 }
 
@@ -37,71 +37,62 @@ nav{
     margin: 0px;
     padding-bottom: 4px;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
-    .underline{
+    .underline {
         width: 100%;
     }
-    .udacity{
-        width: 95px;
-        height: 90px;
+    .udacity {
+        width: 25%;
+        height: auto;
     }
-    .name_cont{
+    .name_cont {
     text-align: right;
     font-size: 1em;
     margin-top: 10px;
 }
 
-    .name_cont h1{
+    .name_cont h1 {
     font-size: 1.5em;
     margin: 5px;
 }
 }
 
-.mainsection{
+main {
     margin-top: 20px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+}
+
+#mainpic{
+    padding-top: 20px;
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
     
-#mainpic{
+#mainpic {
    width: 100%;
 }
-
-.aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 7%;
 }
 
-.aside img {
-    max-height: 30px;
-}
-}
-
-
-.subheader{
+.subheader {
     width: 90%;
     float: right;
+    padding: 5px;
 }
 
-@media screen and (max-width: 699px){
-#mainpic{
+@media screen and (max-width: 699px) {
+#mainpic {
    width: 100%;
-   max-height: 300px;
+   height: auto;
 }
-.mainsection{
+main {
     height: 300px;
 }
 }
 
 
-.subheader{
+.subheader {
     width: 90%;
     float: right;
     font-size: 1em;
@@ -117,23 +108,26 @@ nav{
     flex-wrap: wrap;
 }
 
-.work img{
+.work img {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+.subheader {
+    font-size: .7em;  
+    }
+
     .work {
     width: 100%;
-    border-bottom: 4px solid darkgrey; 
     float: right;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-    .work img{
+    .work img {
     margin-top: 10px;
     width: 100%;
-    height: 250px;
+    height: auto;
     }
 }
  
