@@ -6,10 +6,10 @@ body, html {
     height: 100%;
 }
 
-nav {
+header {
     margin-top: 20px;
     width: 100%;
-     display: flex;
+    display: flex;
     justify-content: flex-end; 
 }
 
@@ -60,7 +60,8 @@ nav {
 
 main {
     margin-top: 20px;
-    width: 100%;
+
+    margin: auto;
 }
 
 #mainpic{
@@ -69,9 +70,15 @@ main {
 
 
 @media screen and (min-width: 700px) {
-    
+
+main {
+    width: 70%;
+}
+
 #mainpic {
    width: 100%;
+   height: auto;
+   margin: auto;
 }
 }
 
